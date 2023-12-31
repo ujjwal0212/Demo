@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Temperature Conversion</title>
+    <link rel="stylesheet" href="style2.css">
+    
+</head>
+<body>
+    <div class="wrapper">
+        <div class="container">
+            <label for="celsius">Celsius</label>
+            <input type="number" id="celsius" oninput= "celToFar() ,celToKel()">
+        </div>
+        <div class="container">
+            <label for="fahrenheit">Fahrenheit</label>
+            <input type="number" id="fahrenheit" oninput = "farToCel(), farTokel()">
+        </div>
+        <div class="container">
+            <label for="kelivin">kelvin</label>
+            <input type="number" id="kelvin" oninput="KelTocel(), KelTofar()">
+        </div>
+    </div>
+    <script src="script2.js"></script>
+</body>
+</html>
